@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "laravel-elixir": "*",
+    "laravel-elixir-bower": "^0.1.0",
+    "laravel-elixir-lr": "0.0.2",
+    "laravel-elixir-wiredep": "^0.1.2"
+  }
+}

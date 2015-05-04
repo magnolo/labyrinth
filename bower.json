@@ -1,0 +1,24 @@
+{
+  "name": "labyrinth",
+  "version": "0.0.0",
+  "authors": [
+    "magnolo <office@manfredwalder.at>"
+  ],
+  "description": "CMS made for customers",
+  "license": "MIT",
+  "homepage": "www.manfredwalder.at",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.15",
+    "angular-ui-router": "~0.2.14",
+    "angular-resource": "~1.3.15",
+    "angular-animate": "~1.3.15",
+    "jquery": "~2.1.4"
+  }
+}
