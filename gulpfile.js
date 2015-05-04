@@ -18,5 +18,6 @@ elixir(function(mix) {
         .wiredep({
             src: 'app.blade.php'
         })
+        .scripts(['app.js'])
         .livereload();
 });
