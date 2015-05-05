@@ -11,7 +11,12 @@
 |
 */
 
+Route::get('/info', function(){
+		phpinfo();
+});
+
 Route::get('/', 'HomeController@index');
+
 
 Route::group(array('prefix' => 'api'), function(){
 		Route::resource('users', 'UsersController');
