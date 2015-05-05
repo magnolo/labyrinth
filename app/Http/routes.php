@@ -14,7 +14,7 @@
 Route::get('/', 'HomeController@index');
 
 Route::group(array('prefix' => 'api'), function(){
-		Route::resource('users', 'UsersController');
+		Route::resource('users', 'UserController');
 		Route::resource('pages', 'PagesController' );
 		Route::resource('galleries', 'GalleriesController');
 		Route::resource('sliders', 'SlidersController');
